@@ -11,6 +11,8 @@
 /* grid */
 @import url('./grid.css');
 
+/* print file */
+@import url("./print.css");
 
 /* header */
 header .container .row {
@@ -303,29 +305,4 @@ footer {
    text-align: center;
 }
 
-
-/* mobile */
-@media (max-width: 768px){
-   .d-m-none{
-       display:none;
-   }
-
-}
-
-
-
-/* tablet */
-@media (max-width: 992px){
-   .d-m-none{
-       display:none;
-   }
-
-
-}
-
-/* desktop */
-@media (min-width: 1200px){
-   .d-m-none{
-       display:none;
-   }}
 
