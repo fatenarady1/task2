@@ -1,0 +1,48 @@
+
+
+/* mobile */
+@media (max-width: 767px){
+    .d-m-none{
+        display:none;
+    }
+ 
+ }
+
+
+ /*  بعض الشاشات بتحتاج تنسيق معين  يعمي في رينج معين بس */
+ /* small screen */
+ @media (min-width: 768px) and (max-width: 991px){
+
+    .d-m-none{
+        display:none;
+    }
+ }
+ 
+  
+ /*  وبعض الشاشات بعوزها تكمل معايا على طول زي هنا كدا */
+    /* Medium screens */
+    @media (min-width: 992px){
+        .d-m-none{
+            display:none;
+        }
+     
+     
+     }
+ 
+ 
+ 
+/* desktop */
+/* large screens */
+@media (min-width: 1200px){
+    .d-m-none{
+        display:none;
+    }}
+ 
+
+ /* custom  */
+ /* عادي اوود على حسب اللي عايزه */
+ @media (maxwidth: 1200px){
+    .d-m-none{
+        display:none;
+    }}
+ 
